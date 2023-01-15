@@ -1,0 +1,21 @@
+.SubContainer{
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.SubWrapper{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+   
+}
+.SubInput{
+ display: flex;
+ gap: 10px;       
+ margin-bottom: 20px;
+}

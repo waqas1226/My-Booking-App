@@ -1,0 +1,47 @@
+.SrContainer{
+background-color: orange;
+    display: flex;
+    flex: 1;
+    width: max-content;
+    border: 1px solid silver;
+   border-radius: 20px;
+   padding: 10px;
+}
+.SrWrapper{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+}
+.SrInputs{
+ display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.OpItem{
+    display: flex;
+    justify-content: space-between;
+}
+.destInput{
+    width: 150px;
+}
+.options{
+    display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.OptInput{
+    width: 50px;
+}
+.SearchBt{
+    width: 80%;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+}
+.bgw{
+    background-color: white;
+    padding: 4px;
+}

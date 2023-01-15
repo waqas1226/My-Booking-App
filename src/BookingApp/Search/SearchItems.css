@@ -1,0 +1,66 @@
+.SICont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 5;
+    padding: 10px;
+}
+.SIWrp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    gap: 20px;
+    border: 0.5px solid silver;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.SIdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -20px;
+    align-items: flex-start;
+    gap: 8px;
+}
+.SIimg{
+    width: 240px;
+    height: 210px;
+}
+.istaxi{
+    background-color: aqua;
+}
+.SItop{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+
+}
+.SIcount{
+    background-color: rgba(98, 98, 230, 0.692);
+
+    height: 20px;
+    padding: 5px;
+}
+.isavailable{
+    width: 80%;
+    align-self: center;
+    background-color: rgba(98, 98, 230, 0.692);
+    padding: 5px;
+    border-radius: 10px;
+}
+.db{
+    display: block;
+}
+.SIstatus{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 50px;
+}
+.SIprice{
+    margin-right: 0px;
+}

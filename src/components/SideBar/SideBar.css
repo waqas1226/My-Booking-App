@@ -1,0 +1,39 @@
+.sidebar{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border: 1px solid silver;
+  /* -webkit-box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
+  box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27); */
+}
+.pd{
+    margin: 6px;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.it{
+  font-weight: 200;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  margin-left: 10px;
+  justify-content: left;
+}
+.sidebarul{
+    align-self: flex-start;
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .admin{
+    display: flex;
+    height: 50px;
+    color: purple;
+    border-bottom: 1px solid silver;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+  hr{
+    text-decoration: none;
+  }

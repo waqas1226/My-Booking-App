@@ -1,0 +1,49 @@
+.rcontainer{
+    width: 70vw;
+    height: max-content;
+    position: fixed;
+    top: 0;
+    left:10%;
+    justify-self: center;
+
+}
+.rWrapper{
+    border: 1px solid black;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.pab{
+   
+        position: absolute;
+        top: 20px;right: 20px;
+        cursor: pointer;
+    
+    background-color: rgb(238, 231, 231);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+.ritem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reservebtn{
+    padding: 5px;
+    margin: 6px;
+    background-color: rgb(120 120 241);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}

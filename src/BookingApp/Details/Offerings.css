@@ -1,0 +1,37 @@
+.Offerings{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.rows{
+
+    width: 80%;
+}
+.city{
+    display: flex;
+    justify-content: space-around;
+}
+.prptype{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.carddetail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.titl{
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 0.5px solid silver;
+
+}
+h3{
+    text-transform: capitalize;
+}

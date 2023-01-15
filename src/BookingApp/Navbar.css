@@ -1,0 +1,68 @@
+.B{
+    background-color: rgb(171, 107, 231);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.BNav{
+    width: 80%;
+    position: relative;
+}
+.row1{
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+}
+.topnav{
+    /* background-color: rgb(162, 91, 228); */
+    background-color: rgb(171, 107, 231);
+
+}
+.r1buttons{
+    padding-right: 70px;
+width: max-content;
+}
+.register{
+
+    margin: 10px;
+width: max-content;
+padding: 5px;
+border-radius: 10px;
+background-color: rgba(46, 46, 219, 0.466)
+}
+.row2{
+display: flex;
+}
+.Bul{
+    display: flex;
+    list-style: none;
+gap: 50px;
+padding-left: 0;
+}
+.bli{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.row3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    margin-top: 40px;
+}
+
+.wording{
+    margin: 10px;
+    width: 200px;
+}
+.row5{
+    margin-top: 40px;
+}
+.cityimg{
+    width: 100px;
+    height: 100px;
+}

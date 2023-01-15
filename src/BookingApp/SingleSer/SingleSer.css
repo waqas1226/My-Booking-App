@@ -1,0 +1,102 @@
+.SingleCont{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+position: relative;
+}
+.SingleWrp{
+width: 80%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+
+}
+.Singledetails{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+width: 100%;
+position: relative;
+}
+.reserve{
+position: absolute;
+top: 30px;
+right: 0;
+padding: 5px;
+width: max-content;
+background-color: rgba(90,90,230);
+}
+.images{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.Singleimg{
+    width: 330px;
+    height: 330px;
+    margin: 5px;
+}
+.note{
+    color: rgb(90, 90, 230);
+}
+.note0{
+    display: flex;
+    align-items: center;
+}
+.Singlebottom{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Singledesc{
+    width: 70%;
+    text-align: justify;
+}
+.package{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px;
+    width: 30%;
+    background-color: rgb(122, 247, 247);
+}
+.bk{
+   align-self: center;
+   width: 80%;
+   margin: 5px;
+    background-color: rgb(112, 145, 250);
+    cursor: pointer;
+}
+.Slider{
+position: sticky;
+top:0;
+right: 0;
+margin: 20px;
+display: flex;
+align-items: center;
+}
+.Simg{
+    width: 80vw;
+    height: 80vh;
+}
+.sclose{
+    position: absolute;
+    top: 20px;right: 60px;
+    cursor: pointer;
+}
+.sicon{
+background-color: rgb(238, 231, 231);
+border-radius: 50%;
+padding: 10px;
+margin: 5px;
+cursor: pointer;
+}
+.nights{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

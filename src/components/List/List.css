@@ -1,0 +1,6 @@
+.listsContainer{
+    display: flex;
+    flex: 7;
+    flex-direction: column;
+    gap: 10px;
+}

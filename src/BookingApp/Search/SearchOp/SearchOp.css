@@ -1,0 +1,50 @@
+.Bsearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: azure;
+    position: absolute;
+    bottom: -70px;
+    left: 100px;
+    -webkit-box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
+    box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
+}
+.dateRange{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.dateRangeComp{
+    position: absolute;
+    top: 50px;
+}
+.members{
+    border: 0.5px solid silver;
+width: 220px;
+display: flex;
+align-items: center;
+position: relative;
+}
+.optionsdiv{
+    position: absolute;
+    top:35px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 140px;
+}
+.opt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+.btcount{
+    display: flex;
+    gap: 10px;
+}

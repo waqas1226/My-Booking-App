@@ -1,0 +1,17 @@
+.Home{
+    display: flex;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+
+    flex: 6;
+}
+.widgets{
+    display: flex;
+}
+.Feachart{
+    display: flex;
+    gap: 10px;
+}

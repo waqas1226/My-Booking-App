@@ -1,0 +1,15 @@
+.OpContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.OpWrapper{
+    width: 80%;
+    display: flex;
+   justify-content: space-around;
+}
+
+.Opul{
+    list-style: none;
+    display: flex;flex-direction: column;gap: 10px; align-items: flex-start;
+}
