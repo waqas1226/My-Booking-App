@@ -13,7 +13,7 @@ import bg7 from '../../../src/pic.jpg'
 const rows = [
   {
     id:11,
-    product:'Nokia',
+    booking:'Hotel',
     img:bg7,
     customer:'Ali',
     date:'1 march',
@@ -23,7 +23,7 @@ const rows = [
   },
   {
     id:12,
-    product:'Nokia',
+    booking:'Hotel',
     img:bg7,
     customer:'Ali',
     date:'1 march',
@@ -33,7 +33,7 @@ const rows = [
   },
   {
     id:13,
-    product:'Nokia',
+    booking:'Cabin',
     img:bg7,
     customer:'Ali',
     date:'1 march',
@@ -43,7 +43,7 @@ const rows = [
   },
   {
     id:14,
-    product:'Nokia',
+    booking:'Appartment',
     img:bg7,
     customer:'Ali',
     date:'1 march',
@@ -61,7 +61,7 @@ export default function List() {
         <TableHead>
           <TableRow>
             <TableCell className='tableCell bld'>Tracking Id</TableCell>
-            <TableCell className='tableCell bld'>Product</TableCell>
+            <TableCell className='tableCell bld'>Booking</TableCell>
             <TableCell className='tableCell bld'>Customer</TableCell>
             <TableCell className='tableCell bld'>Date</TableCell>
             <TableCell className='tableCell bld'>Amount</TableCell>
@@ -78,7 +78,7 @@ export default function List() {
               <TableCell className='tableCell'>
                 <div className="cellWrapper">
                   <img src={row.img} alt="bg" className="Img" />
-                {row.product}
+                {row.booking}
                 </div>
                 </TableCell>
               <TableCell className='tableCell'>{row.customer}</TableCell>

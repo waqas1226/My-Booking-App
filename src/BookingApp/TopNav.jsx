@@ -8,11 +8,11 @@ import { AuthContext } from './Context/AuthContext';
 
 function TopNav() {
   const {user} = useContext(AuthContext);
-    
+  
     return (
         <div className='topnav'>
                 <div className="row1 df al">
-        <h5 className="title">My Booking App</h5>
+        <Link to='/' style={{textDecoration: 'none'}}><h5 className="title" >My Booking App</h5></Link>
        { user? (user.username):(
        <div className="r1buttons df al">
         <button className="register">Register</button>

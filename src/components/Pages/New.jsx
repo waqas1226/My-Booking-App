@@ -76,7 +76,7 @@ console.log(featured)
               <label htmlFor="file">
                 <DriveFolderUpload />
               </label>
-              {imgperc > 0 ? ('uploading:' + imgperc) : <input style={{ display: 'none' }} type='file' accept="image/*" onChange={(e) => setImg(e.target.files[0])} />}
+              {/* {imgperc > 0 ? ('uploading:' + imgperc) : <input style={{ display: 'none' }} type='file' accept="image/*" onChange={(e) => setImg(e.target.files[0])} />} */}
             </div>
           </div>
 

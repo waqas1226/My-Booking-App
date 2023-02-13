@@ -1,7 +1,7 @@
 import { createContext, useReducer, useEffect } from "react";
 
 const INIT_STATE = {
-  user: JSON.parse(localStorage.getItem("user")) || null,
+  user: JSON.parse(localStorage.getItem("user") || null),
   loading: false,
   err: null
 };

@@ -2,8 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { AuthContext } from "../../BookingApp/Context/AuthContext";
-import { AuthContextadmin } from "../Context/AuthContext";
-// import { AuthContext } from "../BookingApp/Context/AuthContext";
+// import { AuthContextadmin } from "../Context/AuthContext";
 
 const Button = styled.button`
 /* Adapt the colors based on primary prop */
