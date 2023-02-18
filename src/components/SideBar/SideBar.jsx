@@ -14,7 +14,7 @@ const SideBar = (props) =>{
     return (                               
 
         <div className="sidebar">
-            <div className="admin">My Admin</div>
+            <Link to="/admin" className="admin">My Admin</Link>
            <ul className="sidebarul">
             <div className="it">MAIN</div>
             <li className="df al pd"><Dashboard/><Link to="/">Dashboard</Link> </li>

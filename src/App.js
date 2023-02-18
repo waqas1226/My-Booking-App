@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route, useNavigate, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useNavigate, Navigate, HashRouter } from "react-router-dom";
 
 import New from "./components/Pages/New";
 import Home from "./components/Home/Home";
@@ -39,7 +39,7 @@ if(!user?.isAdmin){
 }
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         {/* <Nav /> */}
         <Routes>
           <Route path="/">
@@ -112,7 +112,7 @@ if(!user?.isAdmin){
           </Route>
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
